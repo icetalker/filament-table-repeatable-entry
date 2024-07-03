@@ -5,7 +5,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/icetalker/filament-table-repeatable-entry/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/icetalker/filament-table-repeatable-entry/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/icetalker/filament-table-repeatable-entry.svg?style=flat-square)](https://packagist.org/packages/icetalker/filament-table-repeatable-entry)
 
-This is a Filament InfolistS Component, use for display RepetableEntry as a table.
+This is a Filament Infolists Component, use for display RepetableEntry as a table. In case you are using [TableRepeater]() instead of RelationManager.
 
 ## Installation
 
