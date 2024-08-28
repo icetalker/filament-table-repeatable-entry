@@ -29,6 +29,7 @@ class TableRepeatableEntry extends RepeatableEntry
             $this->columnLabels[] = [
                 'component' => $component->getName(),
                 'name' => $component->getLabel(),
+                'alignment' => $component->getAlignment()
             ];
         }
     }
