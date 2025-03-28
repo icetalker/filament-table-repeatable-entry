@@ -27,9 +27,9 @@ class TableRepeatableEntry extends RepeatableEntry
 
         foreach ($components as $component) {
             $this->columnLabels[] = [
-                'component' => $component->getName(),
+                'component' =>  method_exists($component, 'getName') ? $component->getName(): null,
                 'name' => $component->getLabel(),
-                'alignment' => $component->getAlignment()
+                'alignment' => method_exists($component, 'getAlignment') ? $component->getAlignment(): null
             ];
         }
     }
