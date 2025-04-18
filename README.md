@@ -48,7 +48,7 @@ TableRepeatableEntry::make('items')
 
 ### Show Index
 
-To show table row index, please use `showIncdex()`:
+To show table row index, please use `showIndex()`:
 
 ```php
 namespace Icetalker\FilamentTableRepeater\Forms\Components;
@@ -59,7 +59,7 @@ TableRepeatableEntry::make('items')
         Infolists\Components\TextEntry::make('quantity'),
         Infolists\Components\TextEntry::make('price'),
     ])
-    ->striped()
+    ->showIndex()
     ->columnSpan(2),
 ```
 
