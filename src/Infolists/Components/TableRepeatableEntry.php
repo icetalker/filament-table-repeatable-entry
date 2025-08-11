@@ -52,7 +52,6 @@ class TableRepeatableEntry extends RepeatableEntry
         foreach ($components as $component) {
             $component->hiddenLabel(); //Disable Label, only show Entries inside table
             $this->childComponents[$key][] = $component;
-
         }
 
         return $this;

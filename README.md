@@ -26,7 +26,7 @@ TableRepeatableEntry::make('items')
         Infolists\Components\TextEntry::make('quantity'),
         Infolists\Components\TextEntry::make('price'),
     ])
-    ->columnSpan(2),
+    ...
 ```
 
 ### Striped Row
@@ -42,8 +42,7 @@ TableRepeatableEntry::make('items')
         Infolists\Components\TextEntry::make('quantity'),
         Infolists\Components\TextEntry::make('price'),
     ])
-    ->striped()
-    ->columnSpan(2),
+    ->striped(),
 ```
 
 ### Show Index
@@ -59,8 +58,7 @@ TableRepeatableEntry::make('items')
         Infolists\Components\TextEntry::make('quantity'),
         Infolists\Components\TextEntry::make('price'),
     ])
-    ->striped()
-    ->columnSpan(2),
+    ->striped(),
 ```
 
 
