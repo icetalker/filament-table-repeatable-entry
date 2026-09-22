@@ -32,7 +32,7 @@
                             @endphp
                             <th
                                 @class([
-                                    'it-table-repeateable-header-cell',
+                                    'it-table-repeatable-header-cell',
                                     match ($alignment) {
                                         Alignment::Start => 'text-start',
                                         Alignment::Center => 'text-center',

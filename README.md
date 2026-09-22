@@ -18,7 +18,7 @@ composer require icetalker/filament-table-repeatable-entry
 ## Usage
 
 ```php
-namespace Icetalker\FilamentTableRepeater\Infolists\Components;
+namespace Icetalker\FilamentTableRepeatableEntry\Infolists\Components\TableRepeatableEntry;
 
 TableRepeatableEntry::make('items')
     ->schema([
@@ -34,7 +34,7 @@ TableRepeatableEntry::make('items')
 To enable striped table rows, you can use the `striped()` method:
 
 ```php
-namespace Icetalker\FilamentTableRepeater\Forms\Components;
+namespace Icetalker\FilamentTableRepeatableEntry\Forms\Components\TableRepeatableEntry;
 
 TableRepeatableEntry::make('items')
     ->schema([
@@ -50,7 +50,7 @@ TableRepeatableEntry::make('items')
 To show table row index, please use `showIncdex()`:
 
 ```php
-namespace Icetalker\FilamentTableRepeater\Forms\Components;
+namespace Icetalker\FilamentTableRepeatableEntry\Forms\Components\TableRepeatableEntry;
 
 TableRepeatableEntry::make('items')
     ->schema([
